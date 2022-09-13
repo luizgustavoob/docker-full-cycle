@@ -1,6 +1,6 @@
 ## fc-challenge-docker
 
-### 1st Challenge - Full Cycle Rocks
+### 1st Challenge - Code.education Rocks
 
 Image: https://hub.docker.com/repository/docker/luizgustavoob/codeeducation
 
