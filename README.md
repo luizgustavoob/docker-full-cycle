@@ -2,18 +2,18 @@
 
 ### 1st Challenge - Full Cycle Rocks
 
-Image: https://hub.docker.com/repository/docker/luizgustavoob/fc-challenge-docker-golang
+Image: https://hub.docker.com/repository/docker/luizgustavoob/codeeducation
 
 ### How to use
 
 ```
-docker container run --rm luizgustavoob/fc-challenge-docker-golang:latest
+docker container run --rm luizgustavoob/codeeducation:latest
 ```
 
 And the output should be:
 
 ```
-Full Cycle Rocks!
+Code.education Rocks!
 ```
 
 ### 2st Challenge - Nginx + Node + MySQL
@@ -24,7 +24,7 @@ Full Cycle Rocks!
 docker-compose up --build
 ```
 
-With all containers running, in your browser access the address `http://localhost:8080` and the output should be:
+With all containers running, in your browser access the address `https://localhost:8080` and the output should be:
 
 ```
 Full Cycle

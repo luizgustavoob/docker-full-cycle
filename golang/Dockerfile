@@ -3,6 +3,6 @@ WORKDIR /go/src/github.com/luizgustavoob/fc-challenge-docker/golang
 COPY    go.mod main.go ./
 RUN     go build -o ./app .
 
-FROM alpine:latest
+FROM scratch
 COPY --from=builder /go/src/github.com/luizgustavoob/fc-challenge-docker/golang/app /app
 ENTRYPOINT [ "/app" ]
